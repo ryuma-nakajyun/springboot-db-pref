@@ -28,7 +28,7 @@ TBA
 - 言語 : Java 17
 - フレームワーク : SpringBoot 3.5.6
 - ビルドツール : Apache Maven 3.8.7
-- DB:PostgreSQL:
+- DB:PostgreSQL : TBA
 - スクリプト : Shell Script (Bash)
 - バージョン管理 : Git / GitHub
 - 開発ツール : VS Code
