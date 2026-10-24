@@ -1,50 +1,57 @@
-# History files
-.Rhistory
-.Rapp.history
+# ===== Build artifacts =====
+target/
+build/
+out/
+bin/
 
-# Session Data files
-.RData
-.RDataTmp
+# ===== Spring Boot =====
+*.jar
+*.war
+*.ear
 
-# User-specific files
-.Ruserdata
+# ===== Logs =====
+*.log
 
-# Example code in package build process
-*-Ex.R
+# ===== Maven =====
+.mvn/wrapper/maven-wrapper.jar
 
-# Output files from R CMD build
-/*.tar.gz
+# ===== Gradle =====
+.gradle/
 
-# Output files from R CMD check
-/*.Rcheck/
+# ===== IDE =====
+.idea/
+*.iml
+.vscode/
+*.code-workspace
 
-# RStudio files
-.Rproj.user/
+# ===== OS =====
+.DS_Store
+Thumbs.db
 
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
+# ===== Secrets =====
+*.pem
+*.key
+*.crt
+*.p12
+*.der
 
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
+# ===== Spring Profiles =====
+application-local.properties
+application-local.yml
+application-dev.properties
+application-dev.yml
 
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
+# ===== Test =====
+coverage/
+*.exec
 
-# Temporary files created by R markdown
-*.utf8.md
-*.knit.md
+# ===== Generated =====
+generated/
 
-# R Environment Variables
-.Renviron
-.env
+# ===== Temporary =====
+*.tmp
+*.swp
+*.bak
 
-# pkgdown site
-docs/
-
-# translation temp files
-po/*~
-
-# RStudio Connect folder
-rsconnect/
+# ===== Notes =====
+*.txt
